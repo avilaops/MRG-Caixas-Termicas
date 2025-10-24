@@ -1,0 +1,48 @@
+{
+  "name": "mrg-caixas-termicas",
+  "version": "1.0.0",
+  "description": "Site institucional MRG Caixas Térmicas - Vitrine digital e catálogo profissional",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "deploy": "npm run export && gh-pages -d out",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.294.0",
+    "@heroicons/react": "^2.0.18",
+    "framer-motion": "^10.16.4",
+    "next-seo": "^6.4.0",
+    "react-hook-form": "^7.47.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^14.0.0",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "caixa térmica",
+    "inox",
+    "térmica",
+    "industrial",
+    "transporte alimentos",
+    "refrigeração",
+    "MRG"
+  ],
+  "author": "Avila DevOps",
+  "homepage": "https://aviladevs.github.io/mrg-caixas-termicas"
+}
